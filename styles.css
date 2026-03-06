@@ -6,7 +6,7 @@ padding:12px; }
 /* Configurações Globais */
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4; /* Um cinza claro para destacar os painéis brancos */
+    background: #f5f2ea; /* Um cinza claro para destacar os painéis brancos */
     color: #222;
     margin: 0; /* Obrigatório conforme o critério de aceite  */
 }
@@ -14,7 +14,7 @@ body {
 /* Você pode usar a tag header ou a classe .topo que você criou */
 header, .topo {
     padding: 16px;
-    background: #F5A3A3;
+    background: #407dff;
     color: #fff;
 }
 
@@ -43,20 +43,21 @@ header, .topo {
 
 .footer-link:hover {
     color: #fff;
-    background: #F5A3A3;
+    background: #407dff;
     border-radius: 4px;
 }
 
 .footer-link:focus {
-    outline: 2px solid #F5A3A3;
+    outline: 2px solid #407dff;
 }
 
 /* Links Externos e Indicador Visual [cite: 61, 68, 90] */
 a[href^="http"] {
-    color: #F5A3A3;
+    color: #407dff;
     font-weight: bold;
 }
 
 a[href^="http"]::before {
     content: "🌐 "; /* Adiciona um ícone antes do link externo */
 }
+
